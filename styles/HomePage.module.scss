@@ -1,0 +1,91 @@
+.banner{
+    background-image: url("../public/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-bottom: 5rem;
+    color: white;
+    position: relative;
+    z-index: -1;
+    .banner-overlay{
+        background-color: rgba(0,0,0,0.5);
+        min-height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    .banner-text{
+        margin-top: 11rem;
+        margin-bottom: 4rem;  
+        position: relative;      
+    }
+    .niches{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    .creative{
+        font-size: 2rem;
+    }
+    .about-me{
+        font-size: 2.2rem;
+        padding-top: 11rem;
+        text-align: right;
+        position: relative;
+    }
+}
+
+.quote{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    position: relative;
+    .from{
+        font-style: normal;
+        display: block;
+    }
+}
+
+.client-list{
+    background-color: black;
+    padding: 5rem 0;
+}
+
+.profile-banner{
+    background-color: black;
+    .dp-image-holder{
+        //transform: skewY(-11deg);
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .dp-text{
+        color: white;
+        font-size: 2rem;        
+        text-align: right;
+        padding-top: 2rem;
+    }
+    .profile-copy-container{
+        width: 80%;
+        margin: 0 auto;
+        border-top: 1px solid rgb(93, 93, 93);
+    }
+    .dp-image{
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        position: relative;
+        background-color: black;
+        background-image: url("../public/dp.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
